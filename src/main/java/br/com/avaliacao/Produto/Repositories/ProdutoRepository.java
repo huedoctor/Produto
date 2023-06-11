@@ -5,5 +5,4 @@ import org.springframework.stereotype.Repository;
 import br.com.avaliacao.Produto.Entities.Produto;
 @Repository
 public interface ProdutoRepository extends JpaRepository<Produto, Long> {
-
 }

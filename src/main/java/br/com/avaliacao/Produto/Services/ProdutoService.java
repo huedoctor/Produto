@@ -37,6 +37,7 @@ public class ProdutoService {
         if(alteration != null) {
             alteration.setDescricao(produto.getDescricao());
             alteration.setDataValidade(produto.getDataValidade());
+            return produtoRepository.save(alteration);
         }
         return null;
     }
